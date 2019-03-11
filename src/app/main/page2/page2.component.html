@@ -1,0 +1,9 @@
+<div>
+	<ul>
+		<li *ngFor='let item of dataList;trackBy:item'>
+			<p>姓名: {{ item.name }}</p>
+			<p>年龄: {{ item.age }}</p>
+			<p>地址: {{ item.address }}</p>
+		</li>
+	</ul>
+</div>
